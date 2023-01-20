@@ -1,0 +1,121 @@
+*{
+    background: #E3F0F7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+header h1{
+    text-align: center;
+    font-family: 'Fredoka One' , cursive;
+    font-size: 32px;
+    color: blue;
+    margin-top: 1em;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 60px;
+    width: 10%;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-Area{
+    border: blue;
+    resize: none;
+    color: blue;
+    margin-top: 90px;
+    text-transform: lowercase;
+    background: white;
+    background-repeat: no-repeat;
+    border: blue;
+    border-radius: 24px;
+}
+
+::placeholder{ color: blue;}
+    .textArea:focus {
+        outline: none;
+    }
+
+.mensaje{
+    background: white;
+    background-image: url("img/buscador.png");
+    background-repeat: no-repeat;
+    border: #95BBD0;
+    border-radius: 24px;
+    margin-left: 98px;
+    margin-top: 90px;
+    padding-left: 50px;
+    width: 328px;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar{
+    background-color: #95BBD0;
+    border-radius: 24px;
+    color: black;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-encriptar:hover{
+    border-color: blue;
+}
+
+.btn-desencriptar{
+    background-color: #95BBD0;
+    border-radius: 24px;
+    color: black;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-desencriptar:hover{
+    border-color: blue;
+}
+
+.copiar{
+    background-color: #95BBD0;
+    border-radius: 24px;
+    cursor: pointer;
+    color: black;
+    height: 67px;
+    margin-left: 30px;
+    margin-top: 68px;
+    position: absolute;
+    width: 328px;
+}
+
+.copiar:hover{
+    border-color: blue;
+}
+
+.advertencia{
+    color: blue;
+    font-size: 20px;
+}
+
+.creador{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: blue;
+}
+

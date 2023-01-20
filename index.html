@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Desafio</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link href="https: //fonts.googleapis.com/css2? family= Fredoka+One & family= Lato:wght@300 & family= Montserrat:wght@300 & family= Playfair+Display:ital@1 & display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>ENCRIPTADOR DE TEXTO</h1>
+        <img class="logo" src="img/logo.png" alt="logo de la pagina">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-Area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h3 class="advertencia">Solo letras minúsculas</h3>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button class="copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="creador">Creado por María Fernanda Fuentes.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
